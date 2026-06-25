@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BANK SYSTEM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bank.css">
+    
+</head>
+<body>
+    <script src="bank.js" defer></script>
+   <nav class="link">
+    <a href="deposit.html">Deposit</a>
+    <a href="withdraw.html">Withdraw</a>
+    <a href="login.html">Logout</a>
+   </nav>
+   <h1 class="bname">BANK OF STEIN</h1>
+   <section class="sec">
+    <div class="balsev">
+     <h4>Balance</h4>
+     <p id="balance"></p>
+    </div>
+    <div class="balsev">
+     <h4>Saving</h4>
+     <p id="saving"></p>
+    </div>
+   </section>
+   <br>
+   <div class="line"></div><br>
+   <section class="sece">
+    <div class="trahis">
+        <button id="trans">Transfer money</button><br><br>
+        <input type="text" class="dis" id="name" placeholder="account name">
+        <button class="dis" id="btn">Transfer</button>
+        <input type="text" class="dis" id="money" placeholder="money">
+        
+    </div>
+    <div class="trahis">
+        <button id="hist">History</button>
+        <p id="list"></p>
+    </div>
+   </section>
+</body>
+</html>
